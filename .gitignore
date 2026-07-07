@@ -1,0 +1,14 @@
+# Ignore compiled Java classes
+bin/
+*.class
+
+# Ignore the local SQLite database files (WAL/journal files included)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Ignore temporary compilation/report generator files
+report.html
+MarkdownToHtml.java
+MarkdownToHtml.class
